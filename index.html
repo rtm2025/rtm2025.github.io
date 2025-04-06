@@ -1,0 +1,19 @@
+<div class="survey">
+    <h3>Ayúdanos a crear la mejor experiencia para ti:</h3>
+    <form action="https://formspree.io/f/tu-email" method="POST">
+        <label>¿Qué tipo de outfits alquilarías más?</label>
+        <select name="outfit-type" required>
+            <option value="work">Para el trabajo</option>
+            <option value="events">Eventos especiales</option>
+            <option value="casual">Looks casuales</option>
+        </select>
+
+        <label>¿Cuánto pagarías mensualmente por un armario infinito?</label>
+        <input type="range" name="price-range" min="50" max="200" step="10">
+
+        <label>¿Qué te frena al alquilar ropa hoy?</label>
+        <textarea name="pain-points" placeholder="Ej: Precio, higiene, opciones limitadas..."></textarea>
+
+        <button type="submit">Enviar respuestas</button>
+    </form>
+</div>
